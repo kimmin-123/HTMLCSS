@@ -13,55 +13,55 @@ div.header>div.headerGrid>ul>li{}
 /* 컨텐츠 1 */
 div.content1{}
 div.content1>div.contentGrid{}
-div.content1>div.contentGrid>header{}
-div.content1>div.contentGrid>header>h2{}
-div.content1>div.contentGrid>header>p{}
-div.content1>div.contentGrid>section{}
+div.content1>div.contentGrid>div.header{}
+div.content1>div.contentGrid>div.header>h2{}
+div.content1>div.contentGrid>div.header>p{}
+div.content1>div.contentGrid>div.section{}
 /* 컨텐츠 1 top */
-div.content1>div.contentGrid>section>div.artTop{}
-div.content1>div.contentGrid>section>div.artTop>article{}
-div.content1>div.contentGrid>section>div.artTop>article>img{}
-div.content1>div.contentGrid>section>div.artTop>article>div.texts{}
-div.content1>div.contentGrid>section>div.artTop>article>div.texts>h3{}
-div.content1>div.contentGrid>section>div.artTop>article>div.texts>p{}
-div.content1>div.contentGrid>section>div.artTop>article>div.texts>div.icons{}
-div.content1>div.contentGrid>section>div.artTop>article>div.texts>div.icons>i{}
+div.content1>div.contentGrid>div.section>div.artTop{}
+div.content1>div.contentGrid>div.section>div.artTop>div.article{}
+div.content1>div.contentGrid>div.section>div.artTop>div.article>img{}
+div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts{}
+div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts>h3{}
+div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts>p{}
+div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts>div.icons{}
+div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts>div.icons>i{}
 /* 컨텐츠 1 bottom */
-div.content1>div.contentGrid>section>div.artBottom{}
-div.content1>div.contentGrid>section>div.artBottom>article{}
-div.content1>div.contentGrid>section>div.artBottom>article>img{}
-div.content1>div.contentGrid>section>div.artBottom>article>div.texts{}
-div.content1>div.contentGrid>section>div.artBottom>article>div.texts>h3{}
-div.content1>div.contentGrid>section>div.artBottom>article>div.texts>p{}
-div.content1>div.contentGrid>section>div.artBottom>article>div.texts>div.icons{}
-div.content1>div.contentGrid>section>div.artBottom>article>div.texts>div.icons>i{}
+div.content1>div.contentGrid>div.section>div.artBottom{}
+div.content1>div.contentGrid>div.section>div.artBottom>div.article{}
+div.content1>div.contentGrid>div.section>div.artBottom>div.article>img{}
+div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts{}
+div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>h3{}
+div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>p{}
+div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>div.icons{}
+div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>div.icons>i{}
 
 /* 컨텐츠 2 */
 div.content2{}
 div.content2>div.contentGrid{}
-div.content2>div.contentGrid>header{}
-div.content2>div.contentGrid>header>h2{}
-div.content2>div.contentGrid>header>p{}
-div.content2>div.contentGrid>section{}
-div.content2>div.contentGrid>section>article{}
-div.content2>div.contentGrid>section>article>video{}
-div.content2>div.contentGrid>section>article>div.texts{}
-div.content2>div.contentGrid>section>article>div.texts>h3{}
-div.content2>div.contentGrid>section>article>div.texts>h4{}
-div.content2>div.contentGrid>section>article>div.texts>p{}
-div.content2>div.contentGrid>section>article>div.texts>div.button{}
+div.content2>div.contentGrid>div.header{}
+div.content2>div.contentGrid>div.header>h2{}
+div.content2>div.contentGrid>div.header>p{}
+div.content2>div.contentGrid>div.section{}
+div.content2>div.contentGrid>div.section>div.article{}
+div.content2>div.contentGrid>div.section>div.article>video{}
+div.content2>div.contentGrid>div.section>div.article>div.texts{}
+div.content2>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content2>div.contentGrid>div.section>div.article>div.texts>h4{}
+div.content2>div.contentGrid>div.section>div.article>div.texts>p{}
+div.content2>div.contentGrid>div.section>div.article>div.texts>div.button{}
 /* 컨텐츠 3 */
 div.content3{}
 div.content3>div.contentGrid{}
-div.content3>div.contentGrid>header{}
-div.content3>div.contentGrid>header>h2{}
-div.content3>div.contentGrid>header>p{}
+div.content3>div.contentGrid>div.header{}
+div.content3>div.contentGrid>div.header>h2{}
+div.content3>div.contentGrid>div.header>p{}
 
-div.content3>div.contentGrid>section>article{}
-div.content3>div.contentGrid>section>article>img{}
-div.content3>div.contentGrid>section>article>div.texts{}
-div.content3>div.contentGrid>section>article>div.texts>h3{}
-div.content3>div.contentGrid>section>article>div.texts>p{}
+div.content3>div.contentGrid>div.section>div.article{}
+div.content3>div.contentGrid>div.section>div.article>img{}
+div.content3>div.contentGrid>div.section>div.article>div.texts{}
+div.content3>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content3>div.contentGrid>div.section>div.article>div.texts>p{}
 
 /* 푸터 */
 div.footer{}
