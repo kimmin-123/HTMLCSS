@@ -10,58 +10,74 @@ div.header>div.headerGrid>h1{}
 div.header>div.headerGrid>ul{}
 div.header>div.headerGrid>ul>li{}
 
+/* 공통 : 구조가 겹치는 태그들을 전체적으로
+한번씩 선택해줍니다. 이유는 한번에 공통적으로 수정할 스타일을 위해서 */
+div.content{}
+div.content>div.contentGrid{}
+div.content>div.contentGrid>div.header{}
+div.content>div.contentGrid>div.header>h2{}
+div.content>div.contentGrid>div.section{}
+div.content>div.contentGrid>div.section div.article{
+    background-color: #9af3ff;
+}
+div.content>div.contentGrid>div.section>div.article>img{}
+div.content>div.contentGrid>div.section>div.article>div.texts{}
+div.content>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content>div.contentGrid>div.section>div.article>div.texts>h4{}
+div.content>div.contentGrid>div.section>div.article>div.texts>p{}
+
 /* 컨텐츠 1 */
-div.content1{}
-div.content1>div.contentGrid{}
-div.content1>div.contentGrid>div.header{}
-div.content1>div.contentGrid>div.header>h2{}
-div.content1>div.contentGrid>div.header>p{}
-div.content1>div.contentGrid>div.section{}
+div.content.cnt1{}
+div.content.cnt1>div.contentGrid{}
+div.content.cnt1>div.contentGrid>div.header{}
+div.content.cnt1>div.contentGrid>div.header>h2{}
+div.content.cnt1>div.contentGrid>div.header>p{}
+div.content.cnt1>div.contentGrid>div.section{}
 /* 컨텐츠 1 top */
-div.content1>div.contentGrid>div.section>div.artTop{}
-div.content1>div.contentGrid>div.section>div.artTop>div.article{}
-div.content1>div.contentGrid>div.section>div.artTop>div.article>img{}
-div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts{}
-div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts>h3{}
-div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts>p{}
-div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts>div.icons{}
-div.content1>div.contentGrid>div.section>div.artTop>div.article>div.texts>div.icons>i{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>img{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>h3{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>p{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>div.icons{}
+div.content.cnt1>div.contentGrid>div.section>div.artTop>div.article>div.texts>div.icons>i{}
 /* 컨텐츠 1 bottom */
-div.content1>div.contentGrid>div.section>div.artBottom{}
-div.content1>div.contentGrid>div.section>div.artBottom>div.article{}
-div.content1>div.contentGrid>div.section>div.artBottom>div.article>img{}
-div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts{}
-div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>h3{}
-div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>p{}
-div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>div.icons{}
-div.content1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>div.icons>i{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>img{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>h3{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>p{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>div.icons{}
+div.content.cnt1>div.contentGrid>div.section>div.artBottom>div.article>div.texts>div.icons>i{}
 
 /* 컨텐츠 2 */
-div.content2{}
-div.content2>div.contentGrid{}
-div.content2>div.contentGrid>div.header{}
-div.content2>div.contentGrid>div.header>h2{}
-div.content2>div.contentGrid>div.header>p{}
-div.content2>div.contentGrid>div.section{}
-div.content2>div.contentGrid>div.section>div.article{}
-div.content2>div.contentGrid>div.section>div.article>video{}
-div.content2>div.contentGrid>div.section>div.article>div.texts{}
-div.content2>div.contentGrid>div.section>div.article>div.texts>h3{}
-div.content2>div.contentGrid>div.section>div.article>div.texts>h4{}
-div.content2>div.contentGrid>div.section>div.article>div.texts>p{}
-div.content2>div.contentGrid>div.section>div.article>div.texts>div.button{}
+div.content.cnt2{}
+div.content.cnt2>div.contentGrid{}
+div.content.cnt2>div.contentGrid>div.header{}
+div.content.cnt2>div.contentGrid>div.header>h2{}
+div.content.cnt2>div.contentGrid>div.header>p{}
+div.content.cnt2>div.contentGrid>div.section{}
+div.content.cnt2>div.contentGrid>div.section>div.article{}
+div.content.cnt2>div.contentGrid>div.section>div.article>video{}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts{}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts>h4{}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts>p{}
+div.content.cnt2>div.contentGrid>div.section>div.article>div.texts>div.button{}
 /* 컨텐츠 3 */
-div.content3{}
-div.content3>div.contentGrid{}
-div.content3>div.contentGrid>div.header{}
-div.content3>div.contentGrid>div.header>h2{}
-div.content3>div.contentGrid>div.header>p{}
+div.content.cnt3{}
+div.content.cnt3>div.contentGrid{}
+div.content.cnt3>div.contentGrid>div.header{}
+div.content.cnt3>div.contentGrid>div.header>h2{}
+div.content.cnt3>div.contentGrid>div.header>p{}
 
-div.content3>div.contentGrid>div.section>div.article{}
-div.content3>div.contentGrid>div.section>div.article>img{}
-div.content3>div.contentGrid>div.section>div.article>div.texts{}
-div.content3>div.contentGrid>div.section>div.article>div.texts>h3{}
-div.content3>div.contentGrid>div.section>div.article>div.texts>p{}
+div.content.cnt3>div.contentGrid>div.section>div.article{}
+div.content.cnt3>div.contentGrid>div.section>div.article>img{}
+div.content.cnt3>div.contentGrid>div.section>div.article>div.texts{}
+div.content.cnt3>div.contentGrid>div.section>div.article>div.texts>h3{}
+div.content.cnt3>div.contentGrid>div.section>div.article>div.texts>p{}
 
 /* 푸터 */
 div.footer{}
