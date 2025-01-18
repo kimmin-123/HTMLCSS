@@ -210,11 +210,12 @@ div.footer>div.footerGrid>h4{
 }
 div.footer>div.footerGrid>p{
     height: 40px;
+    line-height: 20px;
     font-size: 12px;
     text-align: center;
 }
 div.footer>div.footerGrid>div.sns{}
 div.footer>div.footerGrid>div.sns>i{
     line-height: 80px;
-    font-size: 45px;
+    font-size: 40px;
 }
